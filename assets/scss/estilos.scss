@@ -1,0 +1,52 @@
+body{
+    font-family: TAHOMA;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    margin-top: 2em;
+    background: 	#aaa;
+
+}
+.taks-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 2em 0 0;
+    padding-left: 0;
+    
+
+}
+.liclass{
+    display: flex;
+    line-height: 2;
+    align-items: center;
+    color: black;
+    font-size: 2em;
+    input{
+        margin-right: 1em;
+
+    }
+    a{
+        margin-left: auto;
+        color: red;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    &:hover {
+        background: #FFF
+    }
+    span:focus{
+        background: lighten(yellow,40);
+    }
+}
+
+.newtakss{
+    line-height: 2em;
+    font-size: 1.4em;
+    color: black;
+    width: 100%;
+    display: block;
+    padding: 0 1em;
+    font-style: bold;
+     }
